@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ */
+ .fondoVideo{
+  background-image: url("https://images.wallpaperscraft.com/image/single/stars_milky_way_space_116893_3840x2160.jpg");
+  background-repeat: no-repeat;
+  opacity: 0.9;
+ }
+ .cardBody{
+  background-image: url("https://images.wallpaperscraft.com/image/single/stars_milky_way_space_116893_3840x2160.jpg");
+  background-repeat: no-repeat;
+  opacity: 0.9;
+ }
+ .myCard{
+   border: none;
+ }

@@ -4,7 +4,7 @@ import {Navbar, Nav, Container} from 'react-bootstrap'
 export const Menu = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+            <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark" fixed="top">
                 <Container>
                     <Navbar.Brand href="#home">DJ from JC :)</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

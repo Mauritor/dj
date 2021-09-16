@@ -5,7 +5,7 @@ export const Slider = () => {
     return (
         <>
             <Carousel>
-                <Carousel.Item>
+                <Carousel.Item interval={1500}>
                     <img
                         className="d-block w-100"
                         src={img1}
@@ -16,7 +16,7 @@ export const Slider = () => {
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={1500}>
                     <img
                         className="d-block w-100"
                         src={img1}
@@ -28,7 +28,7 @@ export const Slider = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={2000}>
                     <img
                         className="d-block w-100"
                         src={img1}
